@@ -132,20 +132,20 @@ Authentication → Sign-in method 에서 기능 선택 및 사용 설정
 
 > npm i -g firebase-tools
 >  - -g는 global의 약자로 로컬에 글로벌로 설치하여 다른 프로젝트에서도 사용가능하게 함.
-> firebase login
->  - 오류가 나는 경우가 많은데 그럴 경우엔
->  - Windows PowerShell 앱을 검색 관리자로 실행
+>
+> firebase login 오류가 나는 경우가 많은데 그럴 경우엔 Windows PowerShell 앱을 검색 관리자로 실행
 >  - 현재 권한상태를 확인 get-ExecutionPolicy
 >  - 권한 상태를 “RemoteSigned”으로 변경 Set-ExecutionPolicy RemoteSigned / Yes
 >  - 권한이 정상적으로 변경되었는지 확인 get-ExecutionPolicy
 >  - vscode에서 명령어를 다시 수행
-> 브라우저에서 Firebase CLI Login Successful 확인
-> npm run build
-> firebase init
-> 어떠한 기능을 사용할지 space bar로 선택 후 엔터
-> 기존 or 새로운 프로젝트 선택
-> build
-> y
-> github에 올릴지 말지 선택
+>  - 브라우저에서 Firebase CLI Login Successful 확인
+>
+> npm run build\
+> firebase init\
+> 어떠한 기능을 사용할지 space bar로 선택 후 엔터\
+> 기존 or 새로운 프로젝트 선택\
+> build\
+> y\
+> github에 올릴지 말지 선택\
 > 터미널에 firebase deploy 후 호스팅 URL 확인
 
